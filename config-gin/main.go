@@ -20,7 +20,7 @@ func NewServer() *Server {
 var filePath string
 
 func init() {
-	flag.StringVar(&filePath, "conf", "/Users/lizhengjun/gin-demo/config-gin/conf/test.yaml", "config 文件路径地址")
+	flag.StringVar(&filePath, "configs", "/Users/lizhengjun/gin-demo/config-gin/configs/test.yaml", "config 文件路径地址")
 }
 
 func main() {
